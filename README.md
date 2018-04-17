@@ -1,12 +1,22 @@
 # CST126_01 - Plastic spoons and strings
 
-**Class ID:** Vulpix
+Class ID: Vulpix
 
-**Assignement ID:** CST126_01
+Assignement ID: CST126_01
 
-**Unresolved Issues:**
+Unresolved Issues: None.
 
-**Notes:**
+Notes: A full set of the main code runs from line 10 to approx line 23 (with a delete function). The reason all delete
+functions are at the very end is because my code would just stop working if I had a delete[] ptr before I would run everything
+again for the empty string.
+
+Pleasen note: I tried creating my own strlen function. However, I ran into a few problems imitating the "What came first:
+chicken or egg issue." In order to create a dynamic array using new and assigning to a pointer, I had to give it a size. In order
+to give it a size, I had to make my own strlen function. But in order to make the strlen function, I needed an array in order
+to use its pointer to check for the null character (to figure out the total size). But in order for an array, I needed a dynamic array.
+Therefore, I used the sizeof for a variable that I had utilized in the dynamic array. 
+
+Thank you for the assigment and for the extension. I had learned a lot.
 
 
 ---
